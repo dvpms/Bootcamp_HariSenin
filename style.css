@@ -316,10 +316,16 @@ header.shadow{
     background: var(--second-color);
     transition: 0.2s all linear;
 }
-.footer{
+
+/* footer{
+  
+} */
+footer .container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(230px,auto));
-    gap: 1.5rem;    
+    grid-template-columns: repeat(auto-fit,minmax(240px,auto));
+    gap: 1.5rem;
+    /* grid-template-columns: repeat(auto-fit,minmax(230px,auto));
+    gap: 1.5rem;   */
 }
 .social{
     display: flex;
@@ -337,40 +343,47 @@ header.shadow{
     background: var(--main-color);
     color: var(--text-color);
 }
-.footer-box h2,p{
+
+footer .footer-box{
+    margin: 30px;
+}
+footer .footer-box h2,p{
     color: var(--text-color2);
 }
-.footer-box h3{
+footer .footer-box h3{
     color: var(--text-color2);
     font-weight: 600;
     margin-bottom: 10px;
 }
-.footer-box li a{
+footer .footer-box li a{
     color: var(--main-color);
 }
-.footer-box li a:hover{
+footer .footer-box li a:hover{
     color: var(--main-color);
 }
-.contact{
+footer .contact{
     display: flex;
     flex-direction: column;
     row-gap: 0.5rem;
 }
-.contact span{
+footer .contact span{
     color: var(--text-color2);
     display: flex;
     align-items: center;
 }
-.contact i{
+footer .contact i{
     font-size: 20px;
     margin-right: 1rem;
 }
-.copyright{
+
+footer .copyright{
+    display: block;
     padding: 20px;
     text-align: center;
     background: var(--main-color); 
 }
-.copyright p{
+
+footer .copyright p{
     color: var(--text-color);
 }
 @media(max-width: 1058px){
