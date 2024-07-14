@@ -159,11 +159,10 @@ header.shadow{
   
 } */
 footer .container{
+    margin: 0 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(240px,auto));
     gap: 1.5rem;
-    /* grid-template-columns: repeat(auto-fit,minmax(230px,auto));
-    gap: 1.5rem;   */
 }
 .social{
     display: flex;
